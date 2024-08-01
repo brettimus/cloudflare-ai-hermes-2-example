@@ -25,7 +25,7 @@ export default {
       },
     ];
     const response = await env.AI.run(
-      "@hf/nousresearch/hermes-2-pro-mistral-7b" as BaseAiTextGenerationModels,
+      "@hf/nousresearch/hermes-2-pro-mistral-7b",
       { messages } as BaseAiTextGeneration["inputs"]
     );
 
